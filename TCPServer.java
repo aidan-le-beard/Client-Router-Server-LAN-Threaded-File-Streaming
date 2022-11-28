@@ -10,7 +10,7 @@ public class TCPServer {
 		BufferedReader in = null; // for reading form ServerRouter
 		InetAddress addr = InetAddress.getLocalHost();
 		String host = addr.getHostAddress(); // Server machine's IP
-		String routerName = "XXX.XXX.X.XX"; //### PUT SERVERROUTER PC NAME HERE
+		String routerName = "XXX.XXX.X.XX"; //### PUT SERVERROUTER PC NAME OR IP HERE
 		int SockNum = 5555; // port number
 
 		// Variables to verify transmission
@@ -35,7 +35,7 @@ public class TCPServer {
 		String fromClient; // messages received from ServerRouter
 		InputStream inputStream; // reads the output from the ServerRouter
 		byte[] byteBuffer = new byte[1024]; // holds the incoming byte stream
-		File file = new File("C:/Users/XXX/XXX"); //### PUT PATH TO WHERE VIDEO FILE SHOULD BE WRITTEN HERE
+		File file = new File("C:/Users/XXX/XXX"); //### PUT PATH TO WHERE FILE SHOULD BE WRITTEN HERE
 		OutputStream outputStream = new FileOutputStream(file); 
 		String address = "XXX.XXX.X.XX"; //### PUT CLIENT IP ADDRESS HERE
 
