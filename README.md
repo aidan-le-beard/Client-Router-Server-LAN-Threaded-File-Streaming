@@ -35,3 +35,4 @@ This program creates a client-router-server TCP LAN connection, requiring 3 diff
 12) Run TCPServer.java second.
 13) WAIT for server to write that it is connected to the router.
 14) Run TCPClient.java.
+15) **Optional:** Repeat steps 12-14 for other Server/Client pairs that are prepped to connect using the same Server Router.
