@@ -23,7 +23,7 @@ This program creates a client-router-server TCP LAN connection, requiring 3 diff
 4) Go to “Run,” press “Add Configurations,” and in the “launch.json” file, at the bottom after the final “projectName,” add a “,” to the end of the line, press enter, and copy-paste or type the following: "vmArgs": "--module-path \"C:/Users/XXX/XXX/javafx-sdk-17.0.2/lib\" --add-modules javafx.controls,javafx.fxml,javafx.media"
 5) Replace the path above with the path to the location of the downloaded JavaFX lib folder.
 
-### To execute:
+### To execute on Windows:
 
 1) Place ClientApp.java (if using JavaFX) and TCPClient.java on one computer.
 2) Place ServerApp.java (if using JavaFX) and TCPServer.java on a second computer that is on the same Wi-Fi network.
