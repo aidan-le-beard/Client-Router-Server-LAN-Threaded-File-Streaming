@@ -34,7 +34,7 @@ public class TCPClient {
 
 
 		// Variables for message passing
-		File file = new File("C:/Users/XXX/XXX"); //### PUT VIDEO FILE PATH HERE
+		File file = new File("C:/Users/XXX/XXX"); //### PUT FILE PATH OF FILE TO BE TRANSMITTED HERE
 		InputStream inputStream = new FileInputStream(file);
 		OutputStream outputStream = Socket.getOutputStream();
 		byte[] byteBuffer = new byte[1024]; // holds bytes being sent
