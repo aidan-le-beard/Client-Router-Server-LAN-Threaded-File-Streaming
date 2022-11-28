@@ -28,7 +28,7 @@ This program creates a client-router-server TCP LAN connection, requiring 3 diff
    #### Note: IP can be found on the other machine in command prompt by typing “ipconfig” and retrieving the IPv4 Address from the section titled “Wireless LAN adapter Wi-Fi.”
 6) Edit TCPClient.java line 37: put the file path to the file that you wish for the client to transmit here. This file will be sent to the server.
 7) Edit TCPClient.java line 43: put the IP of the machine with ServerApp.java and TCPServer.java on it.
-8) Edit TCPServer.java line 13: put the IP of the machine with ClientApp.java and TCPClient.java on it.
+8) Edit TCPServer.java line 13: put the IP of the machine with SThread.java and TCPServerRouter.java on it.
 9) Edit TCPServer.java line 38: put the file path to where the server should save the file received from the client.
 10) Edit TCPClient.java line 40: put the IP of the machine with ClientApp.java and TCPClient.java on it.
 11) Run TCPServerRouter.java first.
