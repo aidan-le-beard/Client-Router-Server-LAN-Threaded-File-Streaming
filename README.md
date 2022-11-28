@@ -6,13 +6,13 @@
 
 This program creates a client-router-server TCP LAN connection, requiring 3 different machines. The client streams a file to the router ("server-router"), and the router forwards the file to the server. The router facilitates the client-server streaming using threading, allowing asynchronicity. Any client or server that connects is immediately threaded, allowing multiple pairs of clients and servers to connect. The program outputs the total message size sent by the client, forwarded by the server-router, and received by the server, allowing for verification that the total file was transmitted. Finally, if the file is not a .txt file, the program attempts to open and play the file in JavaFX on both the client and server machines, to verify transmission.
 
-### THIS PROGRAM REQUIRES JAVAFX TO RUN
-## To run WITHOUT JavaFX, or if playing video/audio is not wanted/required:
+## THIS PROGRAM REQUIRES JAVAFX TO RUN
+### To run WITHOUT JavaFX, or if playing video/audio is not wanted/required:
 1) Delete ServerApp.java and ClientApp.java
 2) Comment out or delete lines 101-105 in TCPClient.java
 3) Comment out or delete lines 80-84 in TCPServer.java
 
-## To run WITH JavaFX, if wanted: Guide to Install JavaFX in VSCode, if JavaFX is not already installed:
+### To run WITH JavaFX, if wanted: Guide to Install JavaFX in VSCode, if JavaFX is not already installed:
 1) Download JavaFX from https://gluonhq.com/products/javafx/ for the proper operating system on both the Client and the Server machines. 
 2) Unzip the file. 
 3) In VSCode, under “Java Projects” in the bottom left corner, click “Referenced Libraries,” click the “+” symbol, navigate to the lib folder in the unzipped file, highlight all of the files, and hit enter. 
