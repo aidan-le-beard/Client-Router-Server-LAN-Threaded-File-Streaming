@@ -30,7 +30,7 @@ This program creates a client-router-server TCP LAN connection, requiring 3 diff
 7) Edit TCPClient.java line 43: put the IP of the machine with ServerApp.java and TCPServer.java on it.
 8) Edit TCPServer.java line 13: put the IP of the machine with SThread.java and TCPServerRouter.java on it.
 9) Edit TCPServer.java line 38: put the file path to where the server should save the file received from the client.
-10) Edit TCPClient.java line 40: put the IP of the machine with ClientApp.java and TCPClient.java on it.
+10) Edit TCPServer.java line 40: put the IP of the machine with ClientApp.java and TCPClient.java on it.
 11) Run TCPServerRouter.java first.
 12) Run TCPServer.java second.
 13) WAIT for server to write that it is connected to the router.
