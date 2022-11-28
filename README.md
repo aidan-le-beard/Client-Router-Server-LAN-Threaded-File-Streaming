@@ -25,6 +25,8 @@ This program creates a client-router-server TCP LAN connection, requiring 3 diff
 
 ### To execute on Windows:
 
+Knowledge of Java IDE usage and Java code execution is assumed.
+
 1) Place ClientApp.java (if using JavaFX) and TCPClient.java on one computer.
 2) Place ServerApp.java (if using JavaFX) and TCPServer.java on a second computer that is on the same Wi-Fi network.
 3) Place SThread.java and TCPServerRouter.java on a third computer that is on the same Wi-Fi network.
