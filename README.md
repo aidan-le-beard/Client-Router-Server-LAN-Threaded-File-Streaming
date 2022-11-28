@@ -6,6 +6,10 @@
 
 This program creates a client-router-server TCP LAN connection, requiring 3 different machines. The client streams a file to the router ("server-router"), and the router forwards the file to the server. The router facilitates the client-server streaming using threading, allowing asynchronicity. Any client or server that connects is immediately threaded, allowing multiple pairs of clients and servers to connect. The program outputs the total message size sent by the client, forwarded by the server-router, and received by the server, allowing for verification that the total file was transmitted. Finally, if the file is not a .txt file, the program attempts to open and play the file in JavaFX on both the client and server machines, to verify transmission. At the end of transmission, the client file calculates the total time to make a connection and the total time for the file to be sent and received, and uses this information to calculate the amount of bytes sent per millisecond.
 
+## Network Diagram:
+![image](https://user-images.githubusercontent.com/33675444/204375447-675ffa8b-fb48-41cf-81d9-e15b4102c42d.png)
+
+
 ## THIS PROGRAM REQUIRES JAVAFX TO RUN
 ### To run WITHOUT JavaFX, or if playing video/audio is not wanted/required:
 1) Delete ServerApp.java and ClientApp.java
