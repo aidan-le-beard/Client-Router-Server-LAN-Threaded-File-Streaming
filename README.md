@@ -25,7 +25,7 @@ This program creates a client-router-server TCP LAN connection, requiring 3 diff
 2) Place ServerApp.java (if using JavaFX) and TCPServer.java on a second computer that is on the same Wi-Fi network.
 3) Place SThread.java and TCPServerRouter.java on a third computer that is on the same Wi-Fi network.
 4) Edit TCPClient.java line 13: put the IP of the machine with SThread.java and TCPServerRouter.java on it. 
-   ### Note: IP can be found on the other machine in command prompt by typing “ipconfig” and retrieving the IPv4 Address from the section titled “Wireless LAN adapter Wi-Fi.”
+   #### Note: IP can be found on the other machine in command prompt by typing “ipconfig” and retrieving the IPv4 Address from the section titled “Wireless LAN adapter Wi-Fi.”
 6) Edit TCPClient.java line 37: put the file path to the file that you wish for the client to transmit here. This file will be sent to the server.
 7) Edit TCPClient.java line 43: put the IP of the machine with ServerApp.java and TCPServer.java on it.
 8) Edit TCPServer.java line 13: put the IP of the machine with ClientApp.java and TCPClient.java on it.
