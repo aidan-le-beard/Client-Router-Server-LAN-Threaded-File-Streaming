@@ -42,3 +42,14 @@ Knowledge of Java IDE usage and Java code execution is assumed.
 13) WAIT for server to write that it is connected to the router.
 14) Run TCPClient.java.
 15) **Optional:** Repeat steps 12-14 for other Server/Client pairs that are prepped to connect using the same Server Router.
+
+### Sample Output:
+![image](https://user-images.githubusercontent.com/33675444/205214156-f44448b1-c864-4804-9b41-382b1a1c1341.png)
+
+
+![image](https://user-images.githubusercontent.com/33675444/205214167-174ab262-7b8c-43fc-9383-a70be9b63ff3.png)
+
+
+
+![image](https://user-images.githubusercontent.com/33675444/205214187-f649edb7-7f5a-4f99-a92c-dc7b261d0485.png)
+
